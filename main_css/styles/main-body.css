@@ -4,8 +4,6 @@
 
 .position-statement {
   /* background-color: lightblue; */
-  display: grid;
-  grid-template-columns: 1fr 20fr 1fr;
   color: white;
   font-weight: 700;
   font-size: 30px;
@@ -42,8 +40,6 @@
 .portfolio {
   /* background-color: lightblue; */
   margin-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr 20fr 1fr;
   color: white;
   font-weight: 700;
   font-size: 30px;
@@ -53,7 +49,7 @@
 .thumbnails {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px;
+  column-gap: 50px;
   row-gap: 40px;
 }
 
@@ -67,7 +63,7 @@
     grid-template-columns: 1fr;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .thumbnails {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
