@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(33, 33, 33);
+  font-family: Roboto, Arial;;
+}
+
+.message{
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.box {
+  background-color: whitesmoke;
+  display: grid;
+  position: fixed;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.text {
+  padding: 50px 50px 50px 50px;
+
+}
+
+.button {
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+}
