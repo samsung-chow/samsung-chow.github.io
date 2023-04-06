@@ -3,9 +3,9 @@
 }
 
 .position-statement {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: 1fr 20fr 1fr;
   color: white;
   font-weight: 700;
   font-size: 30px;
@@ -15,7 +15,7 @@
 .ps-info {
   display: grid;
   grid-template-columns: 3fr 6fr;
-  column-gap: 30px;
+  column-gap: 100px;
 }
 
 @media (max-width: 700px) {
@@ -33,15 +33,18 @@
 }
 
 .ps-info-paragraph {
-  background-color: lightgray;
+  /* background-color: lightgray; */
   padding: 5px 5px 5px 5px;
+  color: white;
+  align-items: center;
+  font-size: 20px;
 }
 
 .portfolio {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: 1fr 20fr 1fr;
   color: white;
   font-weight: 700;
   font-size: 30px;
@@ -58,6 +61,11 @@
 @media (max-width: 750px) {
   .thumbnails {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 450px) {
+  .thumbnails {
+    grid-template-columns: 1fr;
   }
 }
 @media (min-width: 1200px) {
