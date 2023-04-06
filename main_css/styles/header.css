@@ -8,6 +8,7 @@
   height: 75px;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 
   padding: 0px 20px 0px 20px;
 
@@ -15,13 +16,18 @@
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
   .header-name,
   .header-links {
     display: none;
   }
   .header {
     justify-content: space-around;
+  }
+}
+@media (max-width: 550px) {
+  .header-title-resize {
+    font-size: 20px;
   }
 }
 
@@ -32,9 +38,8 @@
 
 .header-title {
   color: white;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
-  font-family: 'Josefin Sans', Arial;
 }
 
 .header-links {
