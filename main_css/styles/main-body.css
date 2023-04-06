@@ -54,6 +54,17 @@
   row-gap: 40px;
 }
 
+@media (max-width: 750px) {
+  .thumbnails {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .thumbnails {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .project1,
 .project2,
 .project3,
