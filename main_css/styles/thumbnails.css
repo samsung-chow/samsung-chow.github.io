@@ -44,9 +44,7 @@
 .thumbnail-5:hover {
   opacity: 0.8;
 }
-.ps-info-thumbnail:hover {
-  opacity: 0.8;
-}
+
 
 .website-photo:hover {
   border-radius: 3px;
@@ -61,9 +59,6 @@
   border-radius: 3px;
 }
 .praxis1-photo:hover {
-  border-radius: 3px;
-}
-.pos-thumbnail:hover {
   border-radius: 3px;
 }
 

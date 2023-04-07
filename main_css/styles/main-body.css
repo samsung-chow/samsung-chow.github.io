@@ -26,17 +26,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: opacity 0.15s;
 }
 .ps-thumbnail {
   width: 100%;
   border-radius: 20px;
   transition: border-radius 0.2s;
-  transition: opacity 0.15s;
 }
 .ps-thumbnail:hover {
-  border-radius: 5px;
+  border-radius: 3px;
 }
-.ps-thumbnail:hover {
+.ps-info-thumbnail:hover {
   opacity: 0.8;
 }
 
