@@ -4,7 +4,7 @@
 .bridge-photo,
 .praxis1-photo {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .project1-title,
 .project2-title,
@@ -13,6 +13,27 @@
 .project5-title {
   color: white;
   font-size: 15px;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  transition: opacity 0.15s;
+  padding: 0px 10px 0 10px;
+}
+.bar {
+  margin: 0 10px 0 10px;
+}
+
+.thumbnail-1:hover {
+  opacity: 0.8;
+}
+.thumbnail-2:hover {
+  opacity: 0.8;
+}
+.thumbnail-3:hover {
+  opacity: 0.8;
+}
+.thumbnail-4:hover {
+  opacity: 0.8;
+}
+.thumbnail-5:hover {
+  opacity: 0.8;
 }
