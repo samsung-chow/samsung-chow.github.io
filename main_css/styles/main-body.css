@@ -13,7 +13,7 @@
   column-gap: 125px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 980px) {
   .ps-info {
     grid-template-columns: 1fr;
     align-items: center;
@@ -65,12 +65,12 @@
   row-gap: 40px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .thumbnails {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 980px) {
   .thumbnails {
     grid-template-columns: 1fr;
   }

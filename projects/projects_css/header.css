@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+
+  padding: 0px 20px 0px 20px;
+
+  background-color: rgb(226, 180, 189);
+
+}
+
+@media (max-width: 950px) {
+  .header-name,
+  .header-links {
+    display: none;
+  }
+  .header {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 550px) {
+  .header-title-resize {
+    font-size: 20px;
+  }
+}
+
+.header-name {
+  color: white;
+  width: 200px;
+}
+
+.header-title {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.header-links {
+  color: white;
+  width: 150px;
+}
