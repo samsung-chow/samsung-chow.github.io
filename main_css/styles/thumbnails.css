@@ -1,10 +1,18 @@
-
-.rsx-photo {
+.website-photo,
+.rsx-photo,
+.praxis2-photo,
+.bridge-photo,
+.praxis1-photo {
   width: 100%;
   border-radius: 10px;
 }
-
-.bridge-photo{
-  width: 100%;
-  border-radius: 10px;
+.project1-title,
+.project2-title,
+.project3-title,
+.project4-title,
+.project5-title {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
 }
