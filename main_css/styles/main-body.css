@@ -22,9 +22,24 @@
 }
 
 .ps-info-thumbnail {
-  background-color: lightpink;
   min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.ps-thumbnail {
+  width: 100%;
+  border-radius: 20px;
+  transition: border-radius 0.2s;
+  transition: opacity 0.15s;
+}
+.ps-thumbnail:hover {
+  border-radius: 5px;
+}
+.ps-thumbnail:hover {
+  opacity: 0.8;
+}
+
 
 .ps-info-paragraph {
   /* background-color: lightgray; */
