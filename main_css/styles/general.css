@@ -3,3 +3,10 @@ body {
   font-family: Roboto, Arial;
   padding: 120px 150px 50px 150px;
 }
+
+@media (max-width: 1200px) {
+  body {
+    padding: 120px 80px 50px 80px;
+  }
+}
+
