@@ -5,3 +5,104 @@
   font-size: 27.5px;
   margin-bottom: 20px;
 }
+.explanation {
+  display: grid;
+  row-gap: 60px;
+}
+
+.explanation-1,
+.explanation-2,
+.explanation-3 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 75px;
+}
+
+.explanation-1-paragraph{
+  /* background-color: lightgray; */
+  padding: 5px 5px 5px 5px;
+  color: white;
+  align-items: center;
+  font-size: 20px;
+}
+.priscilla {
+  color: lightblue;
+}
+.explanation-1-photo {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.15s;
+}
+.course-photo {
+  width: 100%;
+  border-radius: 20px;
+  transition: border-radius 0.2s;
+}
+.course-photo:hover {
+  border-radius: 3px;
+}
+.course-photo:hover {
+  opacity: 0.8;
+}
+
+.explanation-2-paragraph {
+  /* background-color: lightgray; */
+  padding: 5px 5px 5px 5px;
+  color: white;
+  align-items: center;
+  font-size: 20px;
+}
+.explanation-2-photo {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.15s;
+}
+.iterations {
+  width: 100%;
+  border-radius: 20px;
+  transition: border-radius 0.2s;
+}
+.iterations:hover {
+  border-radius: 3px;
+}
+.iterations:hover {
+  opacity: 0.8;
+}
+
+.explanation-3-paragraph {
+  /* background-color: lightgray; */
+  padding: 5px 5px 5px 5px;
+  color: white;
+  align-items: center;
+  font-size: 20px;
+}
+.explanation-3-photo {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.15s;
+}
+.github{
+  width: 100%;
+  border-radius: 20px;
+  transition: border-radius 0.2s;
+}
+.github:hover {
+  border-radius: 3px;
+}
+.github:hover {
+  opacity: 0.8;
+}
+
+.photos {
+  /* background-color: lightblue; */
+  color: white;
+  font-weight: 700;
+  font-size: 27.5px;
+  margin-bottom: 20px;
+}

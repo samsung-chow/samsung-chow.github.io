@@ -5,13 +5,14 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 75px;
+  height: 85px;
   align-items: center;
   justify-content: space-between;
   z-index: 100;
 
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 35px;
 
+  /* background-color: rgb(226, 180, 189); */
   background-color: rgb(252, 222, 222);
 
 }
