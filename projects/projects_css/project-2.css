@@ -1,0 +1,47 @@
+.rsx {
+  color: lightblue;
+}
+
+.bobina,
+.us,
+.code {
+  width: 100%;
+  border-radius: 20px;
+  transition: border-radius 0.2s;
+}
+.pandk,
+.track {
+  width: 100%;
+  border-radius: 20px;
+  transition: border-radius 0.2s;
+}
+
+.bobina:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+.us:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+.code:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+.pandk:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+.track:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+
+.photo1-caption,
+.photo2-caption,
+.photo3-caption,
+.photo4-caption {
+  color: white;
+  font-size: 17px;
+  padding: 10px 5px 0 5px;
+}
