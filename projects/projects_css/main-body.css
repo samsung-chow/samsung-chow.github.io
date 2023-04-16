@@ -110,3 +110,19 @@
   column-gap: 100px;
   row-gap: 50px;
 }
+
+.credits{
+  /* background-color: lightblue; */
+  color: white;
+  font-weight: 700;
+  font-size: 27.5px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.credits-paragraph {
+  /* background-color: lightgray; */
+  padding: 5px 5px 5px 0px;
+  color: white;
+  align-items: center;
+  font-size: 15px;
+}
