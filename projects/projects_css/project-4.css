@@ -1,0 +1,24 @@
+.fail,
+.python,
+.pack {
+  width: 100%;
+  border-radius: 20px;
+  transition: border-radius 0.2s;
+}
+.fail:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+.python:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+.pack:hover {
+  border-radius: 3px;
+  cursor: crosshair;
+}
+.photo1-caption {
+  color: white;
+  font-size: 17px;
+  padding: 10px 5px 0 5px;
+}
