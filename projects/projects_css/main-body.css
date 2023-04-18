@@ -124,5 +124,51 @@
   padding: 5px 5px 5px 0px;
   color: white;
   align-items: center;
-  font-size: 15px;
+  font-size: 17px;
+}
+
+.bottom {
+  margin-top: 20px;
+  height: 0px;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.previous,
+.home,
+.next {
+  font-size: 12px;
+  background-color: rgb(252, 222, 222);
+  color: rgb(17, 38, 73);
+  padding: 7px 20px 7px 20px;
+  border-radius: 12px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.previous:hover {
+  opacity: 0.8;
+}
+.home:hover {
+  opacity: 0.8;
+}
+.next:hover {
+  opacity: 0.8;
+}
+
+.previous:active {
+  opacity: 0.5;
+}
+.home:active {
+  opacity: 0.5;
+}
+.next:active {
+  opacity: 0.5;
 }
