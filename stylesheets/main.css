@@ -1,0 +1,85 @@
+body {
+  font-family: Roboto, Arial;
+  /* padding: 135px 50px 50px 50px; */
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+
+  /* background: gray; */
+}
+
+/* main div stuff for quote and button */
+.quote-and-button {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  
+  width: 700px;
+  height: 250px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50%, 0, 0, -50%;
+  transform: translate(-50%, -50%);
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+
+}
+
+/* quote button stuff */
+.quote-button {
+  text-align: center;
+  margin-top: 20px;
+}
+.about-me-button {
+  background-color: white;
+  border: 2px solid #655A7C;
+  opacity: 0;
+
+  text-align: center;
+  padding: 12px 24px;
+
+  border-radius: 10px;
+  
+  transition: opacity 1s ease-in-out, background-color 0.3s;
+}
+.about-me-button-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+.about-me-button:hover {
+  background-color: #655A7C;
+  cursor: pointer;
+
+  .about-me-button-text {
+    color: white;
+  }
+}
+
+/* quote stuff */
+.quote {
+  text-align: center;
+  vertical-align: middle;
+}
+.quote-text {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+

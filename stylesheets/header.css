@@ -1,3 +1,5 @@
+
+/* main header stuff */
 .header {
   display: flex;
   position: fixed;
@@ -12,9 +14,13 @@
 
   z-index: 100;
 
+  font-size: 16px;
+
   padding: 0px 50px 0px 20px;
+  
 }
 
+/* header logo stuff */
 .header-logo {
   width: 200px;
 }
@@ -22,10 +28,61 @@
   width: 100%;
 }
 
+/* links + resume stuff */
 .links-and-resume {
   display: flex;
-  
+
   align-items: center;
   justify-content: space-between;
   width: 500px;
+
+  /* background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  border-radius: 10px; */
+}
+
+/* resume button stuff */
+.resume-button {
+  background-color: white;
+  border: 2px solid #655A7C;
+
+  text-align: center;
+  padding: 12px 24px;
+
+  border-radius: 10px;
+  
+  transition-duration: 0.3s;
+}
+.resume-button:hover {
+  background-color: #655A7C;
+  cursor: pointer;
+
+  .resume-button-text {
+    color: white;
+  }
+}
+.resume-button-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* link stuff */
+.APP-buttons {
+  background-color: transparent;
+  border: none;
+
+  text-align: center;
+
+  transition-duration: 0.3ms;
+}
+.APP-buttons:hover {
+  cursor: pointer;
+
+  .APP-button-text {
+    color: #655A7C;
+  }
+}
+.APP-button-text {
+  font-size: 16px;
+  font-weight: 700;
 }
