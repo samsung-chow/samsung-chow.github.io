@@ -25,12 +25,12 @@ body {
   transform: translate(-50%, -50%);
 
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 50px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
 
@@ -50,6 +50,12 @@ body {
   border-radius: 10px;
   
   transition: opacity 1s ease-in-out, background-color 0.3s;
+
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  margin: -50%, 0, 0, -50%;
+  transform: translateX(-50%);
 }
 .about-me-button-text {
   font-size: 16px;
@@ -68,10 +74,15 @@ body {
 .quote {
   text-align: center;
   vertical-align: middle;
+  transform: translateY(-15%);
 }
 .quote-text {
   font-size: 30px;
   font-weight: 500;
+  border-right: .10em solid transparent;
+  width: auto;
+
+  transition: opacity 1s ease-in-out;
 }
 
 #particles-js {
