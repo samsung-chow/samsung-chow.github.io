@@ -8,6 +8,10 @@ body {
   /* background: gray; */
 }
 
+/* html {
+  filter: invert(1);
+} */
+
 /* main div stuff for quote and button */
 .quote-and-button {
   display: flex;
