@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
   const line2 = document.getElementById('quote-line2');
   const line3 = document.getElementById('quote-line3');
 
-  let lineOneText = "Twenty years from now you will be";
+  let lineOneText = '"Twenty years from now you will be';
   let lineTwoText = "more disappointed by the things you didn't do";
-  let lineThreeText = "than by the ones you did do - Mark Twain";
+  let lineThreeText = 'than by the ones you did do" - Mark Twain';
 
   let index1 = 0;
   let index2 = 0;
