@@ -4,13 +4,10 @@ body {
   padding: 0;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
 
   /* background: gray; */
 }
-
-/* html {
-  filter: invert(1);
-} */
 
 /* main div stuff for quote and button */
 .quote-and-button {
@@ -64,6 +61,7 @@ body {
 .about-me-button-text {
   font-size: 16px;
   font-weight: 700;
+  transition: color 0.3s ease;
 }
 .about-me-button:hover {
   background-color: #655A7C;
@@ -96,5 +94,36 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+.night-toggle-button {
+  position: absolute;
+  top: 90%;
+  left: 95%;
+  padding: 0;
+  margin: -50%, 0, 0, -50%;
+  transform: translateX(-50%);
+
+  width: 50px;
+  height: 50px;
+
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  transition: background 0.5s ease;
+
+}
+.night-toggle-button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.25);
+
+}
+.night-toggle-image {
+  width: 66%;
 }
 
