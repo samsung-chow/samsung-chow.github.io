@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Samson's Website</title>
+    <title>About Samson</title>
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
-    
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="stylesheets/main.css">
-    <link rel="stylesheet" href="stylesheets/header.css">
-    <link rel="stylesheet" href="stylesheets/night-mode.css">
 
-    <!-- SCRIPTS -->
-    <script src="scripts/quote-animation.js"></script>
-    <script src="scripts/fade-button-in.js"></script>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../stylesheets/header.css">
+    <link rel="stylesheet" href="../stylesheets/night-mode.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+
+    <!-- scripts -->
 
   </head>
 
@@ -27,7 +26,7 @@
       <!-- logo -->
       <div class="header-logo">
         <a href="https://www.samsonchow.ca">
-          <img class="logo" src="pictures/header/samson.png">
+          <img class="logo" src="../pictures/header/samson.png">
         </a>
       </div>
 
@@ -73,33 +72,39 @@
       </div> 
     </header>
 
-    <!-- quote and about me button -->
-    <div class="quote-and-button">
-      <div class="quote">
-        <div class="quote-text" id="quote-line1"></div>
-        <div class="quote-text" id="quote-line2"></div>
-        <div class="quote-text" id="quote-line3"></div>
+    <!-- about me stuff -->
+    <div class="main-body">
+
+      <!-- picture + name and info -->
+      <div class="main-picture">
+        <img class="about-me-photo" src="../pictures/about-me/9DC190A5-2000-47D5-86FD-ECCA438E5A18-16276-00000CD8107F4555.JPG">
       </div>
-      <div class="quote-button">
-        <a href="https://www.samsonchow.ca/wip.html">
-          <button class="about-me-button" id="about-me-buttons"><span class="about-me-button-text">About Me</span></button>
-        </a>
+
+      <!-- about me, projects + socials -->
+      <div class="main-information">
+        <div class="info"></div>
+        <div class="connection buttons"></div>
       </div>
+
+
     </div>
+
 
     <!-- night mode toggle -->
     <div class="night-toggle">
       <button class="night-toggle-button" id="dark-mode-toggle">
-        <img class="night-toggle-image" src="pictures/night-mode/moon.svg" id="dark-mode-toggle-icon">
+        <img class="night-toggle-image" src="../pictures/night-mode/moon.svg" id="dark-mode-toggle-icon">
       </button>
     </div>
-    <script src="scripts/night-mode.js"></script>
+    <script src="../scripts/night-mode.js"></script>
 
-    <div id="particles-js"></div>
-    <script src="scripts/particles.js"></script>
-    <script src="scripts/app.js"></script>
+    <!-- particles! -->
+    <!-- <div id="particles-js"></div>
+    <script src="../scripts/particles.js"></script>
+    <script src="../scripts/app.js"></script> -->
 
 
 
   </body>
+
 </html>

@@ -1,0 +1,41 @@
+body {
+  font-family: Roboto, Arial;
+  /* padding: 135px 50px 50px 50px; */
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+  /* background: gray; */
+}
+
+.main-body {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 1000px;
+  height: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50%, 0, 0, -50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.about-me-photo {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.main-information {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 350px;
+}

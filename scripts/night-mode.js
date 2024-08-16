@@ -8,14 +8,14 @@ function isDarkMode() {
 }
 if (isDarkMode()) {
   body.classList.toggle('dark-mode');
-  toggleButtonIcon.src = 'pictures/night-mode/sun.png';
+  toggleButtonIcon.src = '../pictures/night-mode/sun.png';
 }
 
 toggleButton.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
     if (body.classList.contains('dark-mode')) {
-      toggleButtonIcon.src = 'pictures/night-mode/sun.png';
+      toggleButtonIcon.src = '../pictures/night-mode/sun.png';
     } else {
-      toggleButtonIcon.src = 'pictures/night-mode/moon.svg';
+      toggleButtonIcon.src = '../pictures/night-mode/moon.svg';
     }
 });
