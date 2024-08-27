@@ -109,28 +109,7 @@ body {
   font-size: 18px;
   text-align: left;
 }
-/* link stuff */
-.APP-buttons {
-  background-color: transparent;
-  border: none;
 
-  text-align: center;
-  padding-left: 35px;
-
-  transition-duration: 0.3ms;
-}
-.APP-buttons:hover {
-  cursor: pointer;
-
-  .APP-button-text {
-    color: rgb(166, 149, 203, 0.8)
-  }
-}
-.APP-button-text {
-  font-size: 16px;
-  font-weight: 700;
-  color: #a695cb;
-}
 
 
 
