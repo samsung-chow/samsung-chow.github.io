@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Arial;
+  font-family: Roboto, Calibri, Arial;
   /* padding: 135px 50px 50px 50px; */
   padding: 0;
   height: 100vh;
@@ -89,3 +89,48 @@ body {
   justify-content: space-evenly;
   display: flex;
 }
+
+.info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info-title {
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info-paragraph {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+  text-align: left;
+}
+/* link stuff */
+.APP-buttons {
+  background-color: transparent;
+  border: none;
+
+  text-align: center;
+  padding-left: 35px;
+
+  transition-duration: 0.3ms;
+}
+.APP-buttons:hover {
+  cursor: pointer;
+
+  .APP-button-text {
+    color: rgb(166, 149, 203, 0.8)
+  }
+}
+.APP-button-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #a695cb;
+}
+
+
+
