@@ -1,0 +1,115 @@
+body {
+  font-family: Roboto, Calibri, Arial;
+  /* padding: 135px 50px 50px 50px; */
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+
+}
+
+.main-body {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 900px;
+  height: 600px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50%, 0, 0, -50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.main-picture {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.about-me-photo {
+  width: 350px;
+  border-radius: 50px;
+
+}
+
+.main-information {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 350px;
+  height: 529px;
+}
+
+.info {
+  height: 450px;
+  width: 350px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.connection-buttons {
+  height: 50px;
+  width: 350px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.cb-photos {
+  height: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info-title {
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info-paragraph {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 17px;
+  text-align: left;
+}
+
+
+
+

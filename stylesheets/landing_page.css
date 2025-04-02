@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(33, 33, 33);
+  font-family: 'Josefin Sans', Arial;
+}
+
+.main {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.mid {
+  background-color: whitesmoke;
+  display: grid;
+  position: fixed;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.message {
+  padding: 50px 50px 50px 50px;
+  border-radius: 25px;
+}
+

@@ -1,0 +1,253 @@
+.dark-mode {
+  .main-body {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    width: 900px;
+    height: 600px;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50%, 0, 0, -50%;
+    transform: translate(-50%, -50%);
+  
+  
+  }
+  
+  .main-picture {
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .about-me-photo {
+    width: 350px;
+    border-radius: 50px;
+  
+  }
+  
+  .main-information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 350px;
+    height: 529px;
+  }
+  
+  .info {
+    height: 450px;
+    width: 350px;
+  
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.0);
+  }
+  
+  .connection-buttons {
+    height: 50px;
+    width: 350px;
+  
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.0);
+  
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  
+  .cb-photos {
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  .info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .info-title {
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .info-paragraph {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    text-align: left;
+  }
+
+  #particles-js {
+    width: 100%;
+    height: 100%;
+    background-image: url('');
+    background-color: black;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  
+  .night-toggle-button {
+    position: absolute;
+    top: 92%;
+    left: 97%;
+    padding: 0;
+    margin: -50%, 0, 0, -50%;
+    transform: translateX(-50%);
+  
+    width: 50px;
+    height: 50px;
+  
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.0);
+  
+    transition: background 0.5s ease;
+  
+  }
+  .night-toggle-button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.55);
+  
+  }
+  .night-toggle-image {
+    width: 66%;
+  }
+
+    /* main header stuff */
+  .header {
+    display: flex;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 112px;
+
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 100;
+
+    font-size: 16px;
+
+    padding: 0px 50px 0px 20px;
+    
+  }
+
+  /* header logo stuff */
+  .header-logo {
+    width: 200px;
+
+
+  }
+  .logo {
+    width: 70%;
+    padding-left: 20px;
+
+  }
+
+  /* links + resume stuff */
+  .links-and-resume {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+
+    /* background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px; */
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.0);
+  }
+
+  /* resume button stuff */
+  .resume-button {
+    background-color: #a695cb;
+    border: 2px solid #655A7C;
+
+    text-align: center;
+    padding: 12px 24px;
+
+    border-radius: 10px;
+    
+    transition: opacity 1s ease-in-out, background-color 0.3s;
+  }
+  .resume-button:hover {
+    background-color: rgb(166, 149, 203, 0.8);
+    cursor: pointer;
+
+    .resume-button-text {
+      color: white;
+    }
+  }
+  .resume-button-text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .info-title-text {
+    color: #a695cb;
+  }
+  .info-paragraph-text {
+    color: #a695cb;
+  }
+
+    /* link stuff */
+    .APP-buttons {
+      background-color: transparent;
+      border: none;
+  
+      text-align: center;
+      padding-left: 35px;
+  
+      transition-duration: 0.3ms;
+    }
+    .APP-buttons:hover {
+      cursor: pointer;
+  
+      .APP-button-text {
+        color: rgb(166, 149, 203, 0.8)
+      }
+    }
+    .APP-button-text {
+      font-size: 16px;
+      font-weight: 700;
+      color: #a695cb;
+    }
+
+
+}

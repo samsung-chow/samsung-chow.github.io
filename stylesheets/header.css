@@ -1,0 +1,98 @@
+
+/* main header stuff */
+.header {
+  display: flex;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 112px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 100;
+
+  font-size: 16px;
+
+  padding: 0px 50px 0px 20px;
+  
+}
+
+/* header logo stuff */
+.header-logo {
+  width: 200px;
+}
+.logo {
+  width: 70%;
+  padding-left: 20px;
+
+}
+
+/* links + resume stuff */
+.links-and-resume {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  width: 550px;
+
+  /* background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  border-radius: 10px; */
+
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* resume button stuff */
+.resume-button {
+  background-color: white;
+  border: 2px solid #655A7C;
+
+  text-align: center;
+  padding: 12px 24px;
+
+  border-radius: 10px;
+  
+  transition-duration: 0.3s;
+}
+.resume-button:hover {
+  background-color: #655A7C;
+  cursor: pointer;
+
+  .resume-button-text {
+    color: white;
+  }
+}
+.resume-button-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* link stuff */
+.APP-buttons {
+  background-color: transparent;
+  border: none;
+
+  text-align: center;
+  padding-left: 35px;
+
+  transition-duration: 0.3ms;
+}
+.APP-buttons:hover {
+  cursor: pointer;
+
+  .APP-button-text {
+    color: #655A7C;
+  }
+}
+.APP-button-text {
+  font-size: 16px;
+  font-weight: 700;
+}

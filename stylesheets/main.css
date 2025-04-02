@@ -1,0 +1,130 @@
+body {
+  font-family: Roboto, Arial;
+  /* padding: 135px 50px 50px 50px; */
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+
+  /* background: gray; */
+}
+
+/* main div stuff for quote and button */
+.quote-and-button {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  
+  width: 700px;
+  height: 250px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50%, 0, 0, -50%;
+  transform: translate(-50%, -50%);
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+/* quote button stuff */
+.quote-button {
+  text-align: center;
+  margin-top: 20px;
+}
+.about-me-button {
+  background-color: white;
+  border: 2px solid #655A7C;
+  opacity: 0;
+
+  text-align: center;
+  padding: 12px 24px;
+
+  border-radius: 10px;
+  
+  transition: opacity 1s ease-in-out, background-color 0.3s;
+
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  margin: -50%, 0, 0, -50%;
+  transform: translateX(-50%);
+}
+.about-me-button-text {
+  font-size: 16px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+.about-me-button:hover {
+  background-color: #655A7C;
+  cursor: pointer;
+
+  .about-me-button-text {
+    color: white;
+  }
+}
+
+/* quote stuff */
+.quote {
+  text-align: center;
+  vertical-align: middle;
+  transform: translateY(-15%);
+}
+.quote-text {
+  font-size: 30px;
+  font-weight: 500;
+  border-right: .10em solid transparent;
+  width: auto;
+
+  transition: opacity 1s ease-in-out;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.night-toggle-button {
+  position: absolute;
+  top: 92%;
+  left: 97%;
+  padding: 0;
+  margin: -50%, 0, 0, -50%;
+  transform: translateX(-50%);
+
+  width: 50px;
+  height: 50px;
+
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  transition: background 0.5s ease;
+
+}
+.night-toggle-button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.25);
+
+}
+.night-toggle-image {
+  width: 66%;
+}
+

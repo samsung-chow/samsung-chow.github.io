@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Samson</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../stylesheets/header.css">
+    <link rel="stylesheet" href="stylesheets/night-mode.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+
+    <!-- scripts -->
+
+  </head>
+
+  <body>
+
+    <!-- header -->
+    <header class="header">
+
+      <!-- logo -->
+      <div class="header-logo">
+        <a href="https://www.samsonchow.ca">
+          <img class="logo" src="../pictures/header/samson.png">
+        </a>
+      </div>
+
+      <!-- links + resume -->
+      <div class="links-and-resume">
+
+        <!-- About Me -->
+        <div class="about-me">
+          <a href="https://www.samsonchow.ca/about-me">
+            <button class="APP-buttons">
+              <span class="APP-button-text">About Me</span>
+            </button>
+          </a>
+        </div>
+
+        <!-- Projects -->
+        <div class="projects">
+          <a href="https://www.samsonchow.ca/wip.html">
+            <button class="APP-buttons">
+              <span class="APP-button-text">Projects</span>
+            </button>
+          </a>
+        </div>
+
+        <!-- Photography -->
+        <div class="Photography">
+          <a href="https://www.samsonchow.ca/wip.html">
+            <button class="APP-buttons">
+              <span class="APP-button-text">Photography</span>
+            </button>
+          </a>
+        </div>
+
+        <!-- Resume -->
+        <div class="resume">
+          <a href="https://drive.google.com/file/d/1nAdCdj7jL9_zG-639k6WxuZ9MF_0Akbr/view?usp=sharing" target="_blank">
+            <button class="resume-button">
+              <span class="resume-button-text">Resume</span>
+            </button>
+        </a>
+        </div>
+
+      </div> 
+    </header>
+
+    <!-- about me stuff -->
+    <div class="main-body">
+
+      <!-- picture + name and info -->
+      <div class="name-and-info"></div>
+      <div class="main-picture">
+        <img class="about-me-photo" src="../pictures/about-me/me.JPG">
+      </div>
+
+      <!-- about me, projects + socials -->
+      <div class="main-information">
+
+        <!-- about me, hobbies + interests, projects -->
+        <div class="info">
+
+          <div class="info-title"> <span class="info-title-text">About Me</span> </div>
+
+          <div class="info-paragraph"> <span class="info-paragraph-text"> My name is Samson and I am currently an Engineering Science student taking the Machine Intelligence major at the University of Toronto. From taking my very first programming course in highschool to self learning front end development, I have always had a big interest in programming. I am hopeful that I can work towards becoming a full stack developer one day in the future. Currently, I am learning React in hopes of developing a cool web application. </span>
+
+
+          </div>
+
+        </div>
+
+        <div class="connection-buttons">
+
+          <div class="cb-linkedin"> 
+            <a href="https://www.linkedin.com/in/samsonchow04"> 
+              <img class="cb-photos" src="../pictures/about-me/linkedin.png"> 
+            </a>
+          </div>
+          <div class="cb-github">
+            <a href="https://github.com/samsungc">
+             <img class="cb-photos" src="../pictures/about-me/github.png"> 
+            </a>
+          </div>
+          <div class="cb-email"> 
+            <a href="mailto: samson.chow@mail.utoronto.ca">
+              <img class="cb-photos" src="../pictures/about-me/email.png"> 
+            </a>
+          </div>
+          <div class="cb-spotify">
+            <a href="https://open.spotify.com/user/monkeysamson?si=919c125939bc4a04"> 
+              <img class="cb-photos" src="../pictures/about-me/spotify.png">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <!-- night mode toggle -->
+    <div class="night-toggle">
+      <button class="night-toggle-button" id="dark-mode-toggle">
+        <img class="night-toggle-image" src="../pictures/night-mode/moon.svg" id="dark-mode-toggle-icon">
+      </button>
+    </div>
+    <script src="../scripts/night-mode.js"></script>
+
+    <!-- particles! -->
+    <div id="particles-js"></div>
+    <script src="../scripts/particles.js"></script>
+    <script src="../scripts/app.js"></script>
+
+
+
+  </body>
+
+</html>
